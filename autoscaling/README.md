@@ -8,7 +8,7 @@ $ kops edit cluster
 ```
 add configuration below to your cluster configuration.
 
-#new
+#new new
 ```
 kubelet:
     anonymousAuth: false
