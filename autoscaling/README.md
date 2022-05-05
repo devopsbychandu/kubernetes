@@ -7,6 +7,8 @@ you must allow service account tokens to communicate with kubelet, edit your clu
 $ kops edit cluster
 ```
 add configuration below to your cluster configuration.
+
+#new
 ```
 kubelet:
     anonymousAuth: false
